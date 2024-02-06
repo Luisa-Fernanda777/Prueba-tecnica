@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Prueba.API\\Prueba.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\luisa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\luisa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\luisa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj"
+              },
+              "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Prueba.API\\Prueba.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Prueba.API\\Prueba.API.csproj",
+        "projectName": "Prueba.API",
+        "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Prueba.API\\Prueba.API.csproj",
+        "packagesPath": "C:\\Users\\luisa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Prueba.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Application\\Application.csproj"
+              },
+              "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\luisa\\Desktop\\Prueba tecnica\\PruebaTecnicaProyecto\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
